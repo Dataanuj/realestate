@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STATIONARY MART</title>
+  <meta name="description" content="We are supplier of stationary products">
+  <meta name="keywords" content="stationary,online,mumbai">  
+  <link rel="stylesheet" href="loginstyle.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+<div class="wrapper"> 
+<header>Send us a Message</header>
+<form action=" # " >
+ 
+ 
+ 
+ <div class="dbl-field">
+  <div class="field">
+   <input type="text" id="name" placeholder="Enter your name">
+   <i class="fas fa-user"></i>
+  </div>
+  <div class="field">
+   <input type="text" id="email" placeholder="Enter your email">
+   <i class="fas fa-envelope"></i>
+  </div>
+ </div> 
+ 
+  
+  <div class="dbl-field">
+  <div class="field">
+   <input type="text" id="phone" placeholder="Enter your phone no.">
+   <i class="fas fa-phone-alt"></i>
+  </div>
+  <div class="field">
+   <input type="text" placeholder="Enter your website">
+   <i class="fas fa-globe"></i>
+  </div>
+ </div> 
+
+  <div class="message">
+   <textarea id="message" cols="30" rows="10"></textarea>
+   <i class="material-icons">type your message </i> 
+  </div>
+  <div class="button-area">
+   <button type=submit" onclick="whatsapp()";>Send message</button> 
+  
+  </div> 
+
+
+
+</form>  
+</div>
+<script>
+function whatsapp() {
+    
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("email").value;
+
+    var msg = document.getElementById("message").value;
+
+    var url = "https://wa.me/8291488241?text=" 
+    + "Name: " + name + "%0a"
+    + "Phone: " + phone + "%0a"
+    + "Email: " + email + "%0a"
+    + "Message: " + msg; 
+
+    window.open(url, '_blank').focus();
+}
+</script>
+</body>
+</html> 
