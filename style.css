@@ -388,7 +388,7 @@ footer .col{
 
 
 #product1 .pro{
- width:100px;
+ min-width:60px;
  height:100px;
  }
 
