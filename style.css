@@ -109,7 +109,7 @@ body{
   
   height:90vh;
   width:100%;
-  background-image:url("a.jpeg");
+  background-image:url("real.png");
   background-size:cover;
   background-position: top 25% right 0;
   box-shadow:0 5px 15px rgba(0, 0, 0, 0.6);
@@ -140,26 +140,26 @@ body{
   border-radius:50px;
   font-weight:700;
   font-size: 30px;
-  padding:12px 40px 12px 40px;
+  padding:12px 40px 12px 45px;
   cursor:pointer;
   background-repeat:no-repeat;
 }
 
 #about{
-	background:white;
+	background:orange;
 }
 
 #about h1{
 	font-size:35px;
 	text-align:center;
-	color:black;
+	color:white;
     font-family:Arial;
 }
 
 #about a{
 	font-size:20px;
-	text-align:center;
-    color:black;
+	color:white;
+	padding-left:420px;
     font-family:Arial;
 }
 
@@ -222,10 +222,10 @@ footer .col{
 
 #product1 .pro{
   width:23%;
-  min-width:1000px;
+  
   padding:10px 12px;
-  border:3px solid black;
-  border-radius:25px;
+  border:1px solid black;
+  border-radius:15px;
   cursor:pointer;
   box-shadow:20px 20px 30px rgba(0, 0 ,0 ,0.06);
   margin:15px 0px;
@@ -368,7 +368,7 @@ footer .col{
 #hero  {
      padding:0 20px; 
      background-position:55%;
-     background:#FFBF00;
+     background-image:url("real.png");
        }
    
    
@@ -386,10 +386,17 @@ footer .col{
      padding:55px;
                         }
 
-
 #product1 .pro{
- min-width:100px;
- height:200px;
- }
+  width:300px;
+  height:400px;
+ 
+             }
+#about a{
+	font-size:20px;
+	color:white;
+	padding-left:40px;
+    font-family:Arial;
+}
+
 
 }
